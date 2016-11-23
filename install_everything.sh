@@ -41,6 +41,7 @@ sudo apt-get install wallch
 #echo "5. installing redshift"
 #sudo apt-get install redshift
 
+#not sure if this works correctly
 echo "5. installing f.lux"
 sudo apt-get install python-appindicator python-xdg python-pexpect python-gconf python-gtk2 python-glade2 libxxf86vm1
 git clone https://github.com/xflux-gui/xflux-gui.git /tmp/xflux-gui
@@ -58,3 +59,6 @@ sudo apt-get install default-jre
 
 echo "8. installing okular"
 sudo apt-get install okular
+
+echo "9. installing virtualenv"
+sudo apt-get install virtualenv
