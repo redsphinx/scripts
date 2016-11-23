@@ -47,6 +47,7 @@ git clone https://github.com/xflux-gui/xflux-gui.git /tmp/xflux-gui
 python /tmp/xflux-gui/download-xflux.py
 sudo python /tmp/xflux-gui/setup.py install
 sudo mv /usr/local/bin/fluxgui /usr/local/bin/xflux
+sudo chmod +x /usr/local/bin/xflux
 #run with command `xflux`
 
 echo "6. installing wine"
