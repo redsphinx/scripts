@@ -46,6 +46,8 @@ sudo apt-get install python-appindicator python-xdg python-pexpect python-gconf 
 git clone https://github.com/xflux-gui/xflux-gui.git /tmp/xflux-gui
 python /tmp/xflux-gui/download-xflux.py
 sudo python /tmp/xflux-gui/setup.py install
+sudo mv /usr/local/bin/fluxgui /usr/local/bin/xflux
+#run with command `xflux`
 
 echo "6. installing wine"
 sudo apt-get install wine
