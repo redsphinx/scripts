@@ -38,17 +38,17 @@ sudo apt-get install gimp
 echo "4. installing wallch"
 sudo apt-get install wallch
 
-#echo "5. installing redshift"
-#sudo apt-get install redshift
+echo "5. installing redshift"
+sudo apt-get install redshift
 
 #not sure if this works correctly
-echo "5. installing f.lux"
-sudo apt-get install python-appindicator python-xdg python-pexpect python-gconf python-gtk2 python-glade2 libxxf86vm1
-git clone https://github.com/xflux-gui/xflux-gui.git /tmp/xflux-gui
-python /tmp/xflux-gui/download-xflux.py
-sudo python /tmp/xflux-gui/setup.py install
-sudo mv /usr/local/bin/fluxgui /usr/local/bin/xflux
-sudo chmod +x /usr/local/bin/xflux
+#echo "5. installing f.lux"
+#sudo apt-get install python-appindicator python-xdg python-pexpect python-gconf python-gtk2 python-glade2 libxxf86vm1
+#git clone https://github.com/xflux-gui/xflux-gui.git /tmp/xflux-gui
+#python /tmp/xflux-gui/download-xflux.py
+#sudo python /tmp/xflux-gui/setup.py install
+#sudo mv /usr/local/bin/fluxgui /usr/local/bin/xflux
+#sudo chmod +x /usr/local/bin/xflux
 #run with command `xflux`
 
 echo "6. installing wine"
