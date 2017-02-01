@@ -71,3 +71,6 @@ sudo apt-get install spotify-client
 
 echo "11. installing vlc"
 sudo apt-get install vlc
+
+echo "12. installing mendeley"
+sudo apt-get install mendeleydesktop
