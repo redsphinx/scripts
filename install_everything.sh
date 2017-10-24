@@ -38,8 +38,8 @@ sudo apt-get install gimp
 echo "4. installing wallch"
 sudo apt-get install wallch
 
-echo "5. installing redshift"
-sudo apt-get install redshift
+#echo "5. installing redshift"
+#sudo apt-get install redshift
 
 #not sure if this works correctly
 #echo "5. installing f.lux"
