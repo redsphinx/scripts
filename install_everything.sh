@@ -74,3 +74,6 @@ sudo apt-get install vlc
 
 echo "12. installing mendeley"
 sudo apt-get install mendeleydesktop
+
+echo "13. installing pip"
+sudo apt-get install python-pip
