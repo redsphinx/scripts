@@ -77,3 +77,11 @@ sudo apt-get install mendeleydesktop
 
 echo "13. installing pip"
 sudo apt-get install python-pip
+
+echo "14. installing numpy"
+sudo apt-get install python-numpy
+
+echo "15. installing f.lux"
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
